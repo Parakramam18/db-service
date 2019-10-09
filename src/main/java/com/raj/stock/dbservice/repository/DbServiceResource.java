@@ -7,6 +7,7 @@ import com.raj.stock.dbservice.model.Quotes;
 import com.raj.stock.dbservice.resource.QuotesRepository;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -57,4 +58,9 @@ public class DbServiceResource {
 
         return getQuotesByUserName(quotes.getUserName());
     }
+
+
+
+
+
 }
